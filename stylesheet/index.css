@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+}
+
+.main-section {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section
+.button-builds-new-cpf {
+    padding: 40px 80px;
+    font-size: 30px;
+}
+
+.main-section
+.button-copy-cpf {
+    padding: 40px 80px;
+    font-size: 30px;
+}
+
+.main-section
+.input-cpf {
+    padding: 40px 80px;
+    font-size: 30px;
+}
