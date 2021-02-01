@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap"
+          rel="stylesheet">
     <title>Oico CPF</title>
 </head>
+
 <body>
     <section class="main-section">
-        <button class="button-builds-new-cpf" onclick="gerarCpf()">
-            Gerar
-        </button>
-
-        <input class="input-cpf" type="text" id="cpf" />
-
-        <button class="button-copy-cpf" onclick="copyCpf()">
-            Copiar
-        </button>
+        <div class="item" onclick="copyCpf()">Copiar</div>
+        <div class="item" onclick="gerarCpf()">Gerar</div>
+        <div class="item">
+            <input class="input-cpf" type="text" id="cpf" />
+        </div>
     </section>
-</body>
 
-<footer>
-    <script type="text/javascript" src="./js/builds-new-cpf.js"></script>
-    <script type="text/javascript" src="./js/copy-cpf.js"></script>
-</footer>
+    <footer>
+        <script type="text/javascript" src="./js/builds-new-cpf.js"></script>
+        <script type="text/javascript" src="./js/copy-cpf.js"></script>
+    </footer>
+</body>
 </html>
